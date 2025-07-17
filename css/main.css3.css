@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+header {
+  background-color: #FD01B3;
+  color: white;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-button {
+  border: 2px solid white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: inline-block;
+}
+.logo-button:hover {
+  background-color: white;
+  color: #FD01B3;
+  cursor: pointer;
+}
+
+
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      background-color: #FD01B3;
+      padding: 10px 30px;
+      gap: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      border: 2px solid white;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: white;
+      color: #d6613e;
+    }
+
+ .content p {
+      font-size: 20px;
+	  margin-bottom: 10px;
+	  text-align: center; padding-top: 200px;
+      font-weight: bold
+		  }
+
+.social-icons {
+    	  margin-bottom: 10px; 
+	  text-align: center; padding-bottom: 200px;
+	  height: auto;
+	 
+}
+.social-icons .icon {
+    font-size: 50px; /* Size of the icons */
+    margin: 0 10px; /* Spacing between items */
+    color: #333; /* Icon color */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s; /* Smooth color transition */
+}
+.social-icons .icon:hover {
+    color: #007BFF; /* Change color on hover (customize as needed) */
+}
+.social-icons a {
+    display: inline-block; /* Ensures that the anchor is treated like a block for sizing */
+    width: 50px; /* Adjust size */
+    height: 50px; /* Adjust size */
+    margin: 10px; /* Space between icons */
+}
